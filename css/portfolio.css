@@ -195,12 +195,13 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background-image: url("../img/portfolio/mydoor.jpg");
-  background-image: linear-gradient(to bottom right,#dc4225);
-	opacity: .9;
+  background: linear-gradient(rgba(100,100,100,0.5),rgba(100,100,100,0.5)), url("../img/portfolio/mydoor.jpg");
+  /*background-image: linear-gradient(to bottom right,#dc4225);
+	opacity: .7;*/
   color: white;
   font-weight: 2000;
 }
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
