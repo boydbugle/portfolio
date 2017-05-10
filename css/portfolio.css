@@ -73,26 +73,11 @@ hr.style13 {
 	box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
 
-/*hr.star-light {
-  border-color: white;
-}
-hr.star-light:after {
-  background-color: #5E0035;
-  color: white;
-}
-hr.star-primary {
-  border-color: #2C3E50;
-}
-hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
-}*/
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  /*background: #18BC9C;*/
   background-image: linear-gradient(to bottom right,#dc4225);
 	opacity: .9;
   background-image: url("../img/portfolio/keja.jpg");
@@ -105,6 +90,8 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
+  width: 160px;
+  border-radius: 50%;
 }
 header .intro-text .name {
   display: block;
@@ -208,11 +195,10 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  /*background: #18BC9C;*/
   background-image: url("../img/portfolio/mydoor.jpg");
   background-image: linear-gradient(to bottom right,#dc4225);
 	opacity: .8;
-  color: darkblue;
+  color: #2C3E50;
 }
 @media (max-width: 767px) {
   section {
