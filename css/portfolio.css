@@ -197,8 +197,9 @@ section h2 {
 section.success {
   background-image: url("../img/portfolio/mydoor.jpg");
   background-image: linear-gradient(to bottom right,#dc4225);
-	opacity: .8;
-  color: #2C3E50;
+	opacity: .9;
+  color: white;
+  font-weight: 2000;
 }
 @media (max-width: 767px) {
   section {
